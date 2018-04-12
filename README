@@ -1,0 +1,48 @@
+How to Run the game:
+Type python3 main.py in the terminal
+#***********************************AMY**************************#
+GOALS:
+  collision: red Zombie vs Grey zombies  and player
+    if collision occurs draw blood
+  bullets:
+  score:
+  life:
+  points:
+
+Things we might do later:
+Sound
+Important things:
+Implement a different layout aka grid for the
+background so the zombies avoided objects    - i will do this part
+Also the zombies recalculating the path is slow so i wanna to make sure when there
+ far away they only recalculate after some time
+
+
+Files included:
+
+1) setup.py:
+  Includes: Background, and some shared variables like colors
+
+2) main.py:
+  Includes: This is the main game loop where all the classes are called.
+              --The zombies and the player are put into a sprite group so that
+              we can control them easer, because sprite groups have nice functions
+  Includes: Background, and some shared variables like colors
+
+  Includes: PLAYER class & SpriteSheet  class
+        Makes the player move with the keyboard and determines the direction
+        and choses what image to draw using the sprite class.
+
+  Includes: Zombie classes a& SpriteSheet class
+        This includes the commonalities between the red and grey zombies and the
+        sprite sheet class helps draw the image
+        UPDATE:
+          This Has a path given to it and the zombies follow it
+
+5) BFS.py:
+  Includes: a class called Search that uses a grid to
+  calculate the path the zombies will follow
+  Also includes a function to make the grid
+
+6)testing_BFS.py
+  Includes: This explains how i used a grid to calculate the path
