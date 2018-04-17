@@ -2,8 +2,17 @@
 Pygame on python3
 NOT FINISHED!!!
 
-HOW TO RUN...
-TYPE: python main.py in terminal 
+How to Run the game using the terminal:
+python3 main.py
+
+Description:
+                                pygame:
+                                move: arrow keys
+                                shoot: space
+                                start: UP ARROW
+                                
+                                
+                                
 
 YOUTUBE:  
 https://youtu.be/92oXkxyQuBo
