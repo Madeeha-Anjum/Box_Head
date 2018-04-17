@@ -1,5 +1,3 @@
-# Team Members: Madeeha Anjum 1514645,
-
 import pygame
 import random
 from threading import Timer
