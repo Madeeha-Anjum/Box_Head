@@ -13,11 +13,14 @@ How to Run the game using the terminal:
 python3 main.py
 
 Description:
-Description:
-                                pygame:
-                                move: arrow keys
-                                shoot: space
-                                start: UP ARROW
+
+move: arrow keys
+
+
+shoot: space
+
+
+start: UP ARROW
 
 This game is a modified version of  "Box Head"
 The objective of the game is to kill as many zombies as possible. When the games loads,
