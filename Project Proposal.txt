@@ -1,4 +1,4 @@
-Team Members: Madeeha Anjum 1514645, Siyu Mi 1482486
+Team Members: Madeeha Anjum 1514645
 Title: Generic Version of Box Head Game
 Description: One player game in which the objective of the game is to kill all the zombies.
 The game will be built in Python, using pygame. The zombies are randomly created and their purpose is the chase after the player and attack.
