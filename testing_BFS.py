@@ -16,10 +16,10 @@ def bfs(grid, start):
 wall, clear, goal = "#", ".", "*"
 collombs, rows = 10, 5  #one more than the grid becase its indexed by 0
 grid = ["..........",
-        "..0#*..##.",
-        "..##89.#..",
-        "....7###..",
-        "....65...."]
+        "...#*..##.",
+        "..##...#..",
+        ".....###..",
+        ".........."]
 print("length of test grid",len(grid))
 print(grid[2][5])
 print(grid[2][4])
