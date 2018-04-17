@@ -1,48 +1,36 @@
-How to Run the game:
-Type python3 main.py in the terminal
-#***********************************AMY**************************#
-GOALS:
-  collision: red Zombie vs Grey zombies  and player
-    if collision occurs draw blood
-  bullets:
-  score:
-  life:
-  points:
 
-Things we might do later:
-Sound
-Important things:
-Implement a different layout aka grid for the
-background so the zombies avoided objects    - i will do this part
-Also the zombies recalculating the path is slow so i wanna to make sure when there
- far away they only recalculate after some time
+Team Members: Madeeha Anjum 1514645, Siyu Mi 1482486
+
+Title: Generic Version of Box Head Game
+
+How to Run the game using the terminal:
+python3 main.py
+
+Description:
+                                pygame:
+                                move: arrow keys
+                                shoot: space
+                                start: UP ARROW
+
+This game is a modified version of the popular online first person shooter game "Box Head"
+The objective of the game is to kill as many zombies as possible. When the games loads,
+the start/end screen is displayed. Press UP KEY to begin. To control the player, use the
+arrow keys to move around. Press the space bar to shoot. At the top of the screen, there
+is a health bar that keeps track of the player's health, and a score value. The zombie is
+killed when hit with a bullet. More will respawn The zombies are randomly created ever 7
+seconds For each zombie killed, the player is awarded with 10 points. The game ends when
+the player loses all of their health.
 
 
-Files included:
+Files we have included :   Total = 11
+1 )main.py:
+Includes: Include BFS.py Background, PLAYER class & SpriteSheet  class, Zombie class
+2) BSF.py:
+Includes: Search class
 
-1) setup.py:
-  Includes: Background, and some shared variables like colors
+3) README
 
-2) main.py:
-  Includes: This is the main game loop where all the classes are called.
-              --The zombies and the player are put into a sprite group so that
-              we can control them easer, because sprite groups have nice functions
-  Includes: Background, and some shared variables like colors
-
-  Includes: PLAYER class & SpriteSheet  class
-        Makes the player move with the keyboard and determines the direction
-        and choses what image to draw using the sprite class.
-
-  Includes: Zombie classes a& SpriteSheet class
-        This includes the commonalities between the red and grey zombies and the
-        sprite sheet class helps draw the image
-        UPDATE:
-          This Has a path given to it and the zombies follow it
-
-5) BFS.py:
-  Includes: a class called Search that uses a grid to
-  calculate the path the zombies will follow
-  Also includes a function to make the grid
-
-6)testing_BFS.py
-  Includes: This explains how i used a grid to calculate the path
+Extra files:
+4) Project Proposal
+5) Sound: gun wave, gruntsound.wav, zombie.wave
+6) Images: Red_zombie.png, White_Zombie.png, Charqacter.png, boxheadBlood.gif, project.gif (an image of the project )
