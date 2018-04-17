@@ -1,4 +1,4 @@
-# Team Members: Madeeha Anjum 1514645
+# Team Members: Madeeha Anjum
 import collections
 
 # this is where the grid method was learned from:
