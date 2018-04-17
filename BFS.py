@@ -1,4 +1,3 @@
-# Team Members: Madeeha Anjum
 import collections
 
 # this is where the grid method was learned from:
